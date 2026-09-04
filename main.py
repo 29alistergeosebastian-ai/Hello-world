@@ -8,7 +8,7 @@ def get_book_text(path) -> str:
         return file_contents
 
 
-def main() -> str:
+def main() :
     book_path = "./books/frankenstein.txt"
     text = get_book_text(book_path)
     print(text)

@@ -1,9 +1,9 @@
-def word_count(text:str)-> str:
+def word_count(text:str):
     words = text.split()
     num_words = len(words)
     print(f"Found {num_words} total words")
    
-def char_count(text:str) -> dict[str:int]:
+def char_count(text:str) :
     char_dict = {}
 
     for char in text.lower():
